@@ -45,14 +45,56 @@ Item : See Scraper\
 	defines a\
 Bottle : quantity\
 	is stored in a\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 Store_inventory: store_id, bottle_id\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 	is shipped to\
+Store_inventory: store_id, bottle_id\
+	is shipped to\
 User_inventory: user_id, bottle_id\
 	belongs to\
 User : name, email, phone, inventory_id, privilege_id\
 	has a\
 Role : role_name\
+\
+8 decembre\
+\
+MCD - Entites, Propri\'e9t\'e9s, Cardinalit\'e9\
+\
+Entite\
+\
+Usager ?\
+id INT\
+nom VARCHAR(100)\
+prenom VARCHAR(200)\
+date_de_naissance DATE\
+email VARCHAR(250)\
+phone INT\
+cellier_id INT\
+addCellier() FUNCTION\
+removeCellier() FUNCTION\
+\
+Bouteille\
+id INT \
+nom VARCHAR(200)\
+image VARCHAR(200)\
+code_saq VARCHAR(50)\
+pays VARCHAR(50)\
+description VARCHAR(200)\
+prix_saq FLOAT\
+url_saq VARCHAR(200)\
+url_img VARCHAR(200)\
+format VARCHAR(20)\
+type INT\
+getListeBouteille() FUNCTION\
+addBouteille() FUNCTION\
+modBouteille() FUNCTION\
+\
+Cellier\
+id INT\
+id_bouteille INT\
+date_achat DATE\
+garde_jusqua VARCHAR(200)\
+notes VARCHAR(200)\
+prix FLOAT\
+quantite INT\
+millisime INT\
+getListeCellier() FUNCTION\
 	\
 }
