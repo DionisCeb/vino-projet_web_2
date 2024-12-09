@@ -17,4 +17,5 @@ Le suivi du projet et sa réalisation seront structurés en fonction de la méth
 
 ## Ref(s)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- https://good4college.com/online-course/laravel-building-a-to-do-list-application/en
