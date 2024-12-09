@@ -17,11 +17,11 @@ return new class extends Migration
             $table->string('image');
             $table->string('saq_code');
             $table->string('country');
-            $table->floatval('saq_price');
+            $table->float('saq_price');
             $table->string('saq_url');
             $table->string('image_url');
             $table->string('format');
-            $table->intval('type');
+            $table->integer('type');
             $table->timestamps();
         });
     }
