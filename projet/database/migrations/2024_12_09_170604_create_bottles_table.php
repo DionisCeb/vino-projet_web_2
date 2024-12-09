@@ -13,6 +13,15 @@ return new class extends Migration
     {
         Schema::create('bottles', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('image');
+            $table->string('saq_code');
+            $table->string('country');
+            $table->floatval('saq_price');
+            $table->string('saq_url');
+            $table->string('image_url');
+            $table->string('format');
+            $table->intval('type');
             $table->timestamps();
         });
     }
