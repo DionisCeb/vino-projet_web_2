@@ -12,7 +12,8 @@ class BottleController extends Controller
      */
     public function index()
     {
-        //
+        $bottles = Bottle::all();
+        return $bottles;
     }
 
     /**
