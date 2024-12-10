@@ -1,0 +1,65 @@
+/* Styles généraux pour l'en-tête de la page */
+.page-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+/* Styles pour l'image de l'en-tête */
+.page-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 80%;
+}
+
+/* Styles pour le conteneur de contenu */
+.header-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+    z-index: 1;
+}
+
+/* Conteneur de l'en-tête avec une priorité d'affichage élevée */
+.header-container {
+    z-index: 100;
+}
+
+/* Boîte semi-transparente pour le texte */
+.header-box .box {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Styles pour le texte de l'en-tête */
+.header-box h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Styles pour la ligne de séparation */
+.header-box .line {
+    width: 80%;
+    height: 2px;
+    background: #fff;
+    margin: 20px auto;
+}
+
+/* Styles pour le paragraphe */
+.header-box p {
+    font-size: 1.2em;
+    margin: 0;
+}

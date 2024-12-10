@@ -1,0 +1,9 @@
+@import url(typograpghy/typography.css);
+@import url(utils/utils.css);
+@import url(colors/colors.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+}

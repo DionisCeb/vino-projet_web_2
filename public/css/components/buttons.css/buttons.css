@@ -1,0 +1,60 @@
+:root {
+    --gradient-btn-bg: linear-gradient(90deg, #164a99 0%, #80454a 100%);
+    --general-btn-bg: orange;
+    --general-btn-color: white;
+    --btn-no-border: #5a4e83;
+    --btn-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --scail-main: 0.9;
+}
+
+/*Enveloppe de bouton*/
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+/*Bouton général*/
+.btn {
+    padding: 20px;
+    background: var(--general-btn-bg);
+    color: var(--general-btn-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s;
+    box-shadow: var(--btn-shadow);
+}
+
+/*Le bouton sans bordure*/
+.btn-border {
+    background: none;
+    border: 3px solid var(--general-btn-bg);
+    color: var(--general-btn-bg);
+    
+}
+
+/*survol - Bouton général*/
+.btn:hover {
+    scale: 0.9;
+    color: rgb(255, 255, 255);
+}
+
+/*Le bouton avec une icône*/
+.btn-icon {
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: var(--btn-no-border);
+    font-size: 20px;
+    border: 4px solid var(--btn-no-border);
+    transition: all 1s;
+}
+/*survol - Le bouton avec une icône*/
+.btn-icon:hover {
+    color: orange;
+    border: 4px solid orange;
+}
+

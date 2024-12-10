@@ -1,0 +1,119 @@
+.structure {
+    width: 80%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .structure {
+        width: 95%;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-al {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center-center {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.height-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+
+.gap5 {
+    gap: 5px;
+}
+.gap10 {
+    gap: 10px;
+}
+.gap15 {
+    gap: 15px;
+}
+.gap20 {
+    gap: 20px;
+}
+
+
+.hide {
+    display: none;
+}
+
+.height30{
+    height: 30dvh;
+}
+.height40{
+    height: 40dvh;
+}
+.height50{
+    height: 50dvh;
+}
+.height60{
+    height: 60dvh;
+}
+.height70{
+    height: 70dvh;
+}
+.height80{
+    height: 80dvh;
+}
+.height90{
+    height: 90dvh;
+}
+.height100{
+    height: 100dvh;
+}
