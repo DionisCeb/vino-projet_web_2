@@ -1,7 +1,7 @@
 /* Styles généraux pour l'en-tête de la page */
 .page-header {
     position: relative;
-    height: 400px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -38,14 +38,14 @@
 /* Boîte semi-transparente pour le texte */
 .header-box .box {
     background: rgba(0, 0, 0, 0.3);
-    padding: 20px 40px;
+    padding: 15px 20px;
     border-radius: 10px;
     display: inline-block;
 }
 
 /* Styles pour le texte de l'en-tête */
 .header-box h1 {
-    font-size: 2.5em;
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
@@ -60,6 +60,30 @@
 
 /* Styles pour le paragraphe */
 .header-box p {
-    font-size: 1.2em;
+    font-size: 14px;
     margin: 0;
+}
+
+
+/* Écrans moyens (tablettes) */
+@media (min-width: 768px) {
+    .header-box .box {
+        padding: 20px 30px;
+    }
+    .header-box .box h1 {
+        font-size: 25px;
+    }
+    .header-box .box p {
+        font-size: 18px;
+    }
+}
+
+/* Grands écrans (ordinateurs de bureau) */
+@media (min-width: 1200px) {
+    .page-header {
+        height: 400px;
+    }
+    .header-box .box {
+        padding: 30px 40px;
+    }
 }
