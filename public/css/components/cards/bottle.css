@@ -3,6 +3,8 @@
 }
 /* Conteneur de la carte */
 .card_bottle {
+    display: flex;
+    flex-direction: column;
     background-color: #6b7384;
     border-radius: 15px;
     padding: 20px;
