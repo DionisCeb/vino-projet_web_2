@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+
+@media (min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (min-width: 1800px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}

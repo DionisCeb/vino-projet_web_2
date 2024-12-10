@@ -1,0 +1,11 @@
+@import url(text-effects.css);
+
+/* fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

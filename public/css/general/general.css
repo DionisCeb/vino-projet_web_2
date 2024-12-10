@@ -1,6 +1,7 @@
 @import url(typograpghy/typography.css);
 @import url(utils/utils.css);
 @import url(colors/colors.css);
+@import url(animation/animation.css);
 
 
 * {

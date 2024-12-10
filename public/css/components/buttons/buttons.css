@@ -28,10 +28,22 @@
 
 /*Le bouton sans bordure*/
 .btn-border {
-    background: none;
-    border: 3px solid var(--general-btn-bg);
-    color: var(--general-btn-bg);
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #e7a18e;
+    color: #e7a18e;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
     
+}
+
+/* Hover effect for the link */
+.btn-border:hover {
+    background-color: var(--accent-color);
+    color: #fff;
 }
 
 /*survol - Bouton général*/

@@ -1,0 +1,24 @@
+
+  
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: none }
+}
+
+.typewriter p,
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid rgb(255, 255, 255); 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}

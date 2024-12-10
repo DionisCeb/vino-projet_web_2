@@ -1,0 +1,86 @@
+:root {
+    --card-bg: #6b7384;
+}
+/* Conteneur de la carte */
+.card_bottle {
+    background-color: #6b7384;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    font-family: 'Georgia', serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /*annimation*/
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+/* Image de la bouteille */
+.card_bottle picture img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Titre de la carte */
+.card_bottle .card-title h2 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Section des détails de la carte */
+.card_bottle .card-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* Ligne de séparation */
+.card-category .line {
+    height: 1px;
+    rotate: 90deg;
+    width: 20px;
+    background-color: #fff;
+}
+
+/* Style du prix */
+.card_bottle .price {
+    color: var(--accent-color);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/*animations*/
+
+.card_bottle:nth-child(1) {
+    animation: fadeIn 1s ease-in-out forwards; 
+    opacity: 0;
+}
+.card_bottle:nth-child(2) {
+    animation: fadeIn 1.2s ease-in-out forwards; 
+    opacity: 0;
+}
+.card_bottle:nth-child(3) {
+    animation: fadeIn 1.4s ease-in-out forwards; 
+    opacity: 0;
+}
+.card_bottle:nth-child(4) {
+    animation: fadeIn 1.6s ease-in-out forwards; 
+    opacity: 0;
+}
+.card_bottle:nth-child(5) {
+    animation: fadeIn 1.8s ease-in-out forwards; 
+    opacity: 0;
+}
+.card_bottle:nth-child(6) {
+    animation: fadeIn 2s ease-in-out forwards; 
+    opacity: 0;
+}
