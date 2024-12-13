@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- En-tête -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1A3D6E">
+    Typographie - Univers visuel VINO
+  </text>
+
+  <!-- Playfair Display -->
+  <text x="50" y="120" font-family="Playfair Display, serif" font-size="24" fill="#1A3D6E">Playfair Display</text>
+  <text x="50" y="150" font-family="Playfair Display, serif" font-size="18" fill="#333">
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  </text>
+  <text x="50" y="180" font-family="Playfair Display, serif" font-size="18" fill="#333">
+    abcdefghijklmnopqrstuvwxyz
+  </text>
+  <text x="50" y="210" font-family="Playfair Display, serif" font-size="18" fill="#333">
+    0123456789@$?!&amp;
+  </text>
+  
+  <!-- Utilisation Playfair -->
+  <foreignObject x="50" y="230" width="700" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 14px; color: #1A3D6E; line-height: 1.4;">
+      Utilisation : Pour les titres principaux et noms des cuvées prestigieuses. Son style calligraphique évoque l'élégance et la tradition des grands vins. Idéale pour les en-têtes de sections et les étiquettes de vins d'exception.
+    </div>
+  </foreignObject>
+
+  <!-- Cormorant Garamond -->
+  <text x="50" y="350" font-family="Cormorant Garamond, serif" font-size="24" fill="#B56A4B">Cormorant Garamond</text>
+  <text x="50" y="380" font-family="Cormorant Garamond, serif" font-size="18" fill="#B56A4B">
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  </text>
+  <text x="50" y="410" font-family="Cormorant Garamond, serif" font-size="18" fill="#B56A4B">
+    abcdefghijklmnopqrstuvwxyz
+  </text>
+  <text x="50" y="440" font-family="Cormorant Garamond, serif" font-size="18" fill="#B56A4B">
+    0123456789@$?!&amp;
+  </text>
+  
+  <!-- Utilisation Cormorant -->
+  <foreignObject x="50" y="460" width="700" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 14px; color: #B56A4B; line-height: 1.4;">
+      Utilisation : Pour les descriptions des vins, les notes de dégustation et les contenus éditoriaux. Sa finesse et ses empattements apportent une touche sophistiquée tout en restant parfaitement lisible. Parfaite pour les textes qui nécessitent une lecture attentive et réfléchie.
+    </div>
+  </foreignObject>
+
+  <!-- Lato -->
+  <text x="50" y="580" font-family="Lato, sans-serif" font-size="24" fill="#000000">Lato</text>
+  <text x="50" y="610" font-family="Lato, sans-serif" font-size="18" fill="#000000">
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  </text>
+  <text x="50" y="640" font-family="Lato, sans-serif" font-size="18" fill="#000000">
+    abcdefghijklmnopqrstuvwxyz
+  </text>
+  <text x="50" y="670" font-family="Lato, sans-serif" font-size="18" fill="#000000">
+    0123456789@$?!&amp;
+  </text>
+  
+  <!-- Utilisation Lato -->
+  <foreignObject x="50" y="690" width="700" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 1.4;">
+      Utilisation : Pour l'interface utilisateur, les informations techniques et les données pratiques. Sa clarté et sa modernité en font la police idéale pour les détails techniques des vins (millésimes, degrés, conservation) et la navigation du site. Excellente lisibilité sur écran.
+    </div>
+  </foreignObject>
+</svg>

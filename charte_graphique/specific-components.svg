@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titre -->
+  <text x="50" y="50" font-family="Playfair Display, serif" font-size="24" font-weight="bold" fill="#1A3D6E">
+    Composants Spécifiques - VINO
+  </text>
+
+  <!-- Graphique de Maturité -->
+  <rect x="50" y="80" width="300" height="150" fill="#F1F1F1" rx="8"/>
+  <line x1="70" y1="200" x2="330" y2="200" stroke="#1A3D6E" stroke-width="2"/>
+  <path d="M70,200 Q200,100 330,200" fill="none" stroke="#B56A4B" stroke-width="2"/>
+  <circle cx="200" cy="130" r="5" fill="#B56A4B"/>
+  <text x="70" y="220" font-family="Lato, sans-serif" font-size="12" fill="#1A3D6E">2020</text>
+  <text x="310" y="220" font-family="Lato, sans-serif" font-size="12" fill="#1A3D6E">2030</text>
+
+  <!-- Indicateur de Température -->
+  <rect x="50" y="250" width="100" height="200" rx="8" fill="#F1F1F1"/>
+  <rect x="70" y="270" width="20" height="160" rx="4" fill="#1A3D6E" opacity="0.1"/>
+  <rect x="70" y="350" width="20" height="80" rx="4" fill="#B56A4B"/>
+  <text x="100" y="370" font-family="Lato, sans-serif" font-size="12" fill="#1A3D6E">16°C</text>
+
+  <!-- Compteur de Bouteilles -->
+  <circle cx="250" cy="350" r="50" fill="#1A3D6E"/>
+  <text x="230" y="360" font-family="Playfair Display, serif" font-size="24" fill="#F1F1F1">42</text>
+  <text x="215" y="380" font-family="Lato, sans-serif" font-size="12" fill="#F1F1F1">bouteilles</text>
+
+  <!-- Tags -->
+  <rect x="50" y="500" width="80" height="30" rx="15" fill="#1A3D6E"/>
+  <text x="65" y="520" font-family="Lato, sans-serif" font-size="12" fill="#F1F1F1">Merlot</text>
+  
+  <rect x="140" y="500" width="100" height="30" rx="15" fill="#B56A4B"/>
+  <text x="155" y="520" font-family="Lato, sans-serif" font-size="12" fill="#F1F1F1">Bordeaux</text>
+
+  <!-- Spécifications -->
+  <foreignObject x="50" y="580" width="700" height="300">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Lato, sans-serif; font-size: 14px; line-height: 1.5;">
+      <p style="color: #1A3D6E; font-weight: bold;">Justification des choix :</p>
+
+      <p><span style="color: #B56A4B;">Graphique de Maturité :</span>
+      - Courbe fluide pour représenter l'évolution
+      - Point d'apogée en cuivre
+      - Échelle temporelle claire
+      - Fond clair pour lisibilité</p>
+
+      <p><span style="color: #B56A4B;">Indicateur de Température :</span>
+      - Visuel vertical intuitif
+      - Code couleur température
+      - Affichage précis
+      - Animation fluide</p>
+
+      <p><span style="color: #B56A4B;">Compteur de Bouteilles :</span>
+      - Forme circulaire pour impact visuel
+      - Chiffre grand et lisible
+      - Animations au changement
+      - Contraste optimal</p>
+
+      <p><span style="color: #B56A4B;">Tags :</span>
+      - Forme arrondie pour douceur
+      - Alternance des couleurs
+      - Taille compacte
+      - Interaction au hover</p>
+    </div>
+  </foreignObject>
+</svg>

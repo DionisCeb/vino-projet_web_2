@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fenêtre de confirmation -->
+  <rect x="50" y="80" width="300" height="200" rx="8" fill="#F1F1F1" stroke="#1A3D6E"/>
+  <text x="70" y="110" font-family="Cormorant Garamond, serif" font-size="16" fill="#1A3D6E">Confirmation</text>
+  <text x="70" y="140" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">Supprimer ce vin ?</text>
+  <rect x="70" y="170" width="100" height="30" rx="4" fill="#B56A4B"/>
+  <text x="90" y="190" font-family="Lato, sans-serif" font-size="14" fill="#F1F1F1">Confirmer</text>
+  <rect x="180" y="170" width="100" height="30" rx="4" fill="#F1F1F1" stroke="#1A3D6E"/>
+  <text x="205" y="190" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">Annuler</text>
+
+  <!-- Formulaire d'ajout -->
+  <rect x="400" y="80" width="350" height="300" rx="8" fill="#F1F1F1" stroke="#1A3D6E"/>
+  <text x="420" y="110" font-family="Cormorant Garamond, serif" font-size="16" fill="#1A3D6E">Ajouter un vin</text>
+  <rect x="420" y="130" width="310" height="40" rx="4" fill="#FFFFFF" stroke="#1A3D6E"/>
+  <text x="430" y="155" font-family="Lato, sans-serif" font-size="14" fill="#B56A4B">Nom du vin</text>
+  <rect x="420" y="180" width="310" height="40" rx="4" fill="#FFFFFF" stroke="#1A3D6E"/>
+  <text x="430" y="205" font-family="Lato, sans-serif" font-size="14" fill="#B56A4B">Millésime</text>
+
+  <!-- Message d'alerte -->
+  <rect x="50" y="300" width="300" height="100" rx="8" fill="#F1F1F1" stroke="#B56A4B"/>
+  <text x="70" y="340" font-family="Lato, sans-serif" font-size="14" fill="#B56A4B">⚠️ Erreur de connexion</text>
+  <text x="70" y="370" font-family="Lato, sans-serif" font-size="12" fill="#1A3D6E">Veuillez réessayer</text>
+
+  <!-- Notice informative -->
+  <rect x="50" y="420" width="300" height="80" rx="8" fill="#1A3D6E" opacity="0.1"/>
+  <text x="70" y="460" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">ℹ️ Mise à jour effectuée</text>
+
+  <!-- Spécifications -->
+  <foreignObject x="50" y="520" width="700" height="350">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Lato, sans-serif; font-size: 14px; line-height: 1.5;">
+      <p><span style="color: #B56A4B;">Confirmation :</span>
+      - Fond : #F1F1F1
+      - Bordure : #1A3D6E
+      - Boutons : Action principale #B56A4B / Secondaire #F1F1F1
+      - Overlay : Noir 50%</p>
+
+      <p><span style="color: #B56A4B;">Formulaires :</span>
+      - Taille : 350px min
+      - Padding : 20px
+      - Champs : Fond blanc
+      - Labels : #B56A4B</p>
+
+      <p><span style="color: #B56A4B;">Alertes :</span>
+      - Erreur : Bordure #B56A4B
+      - Succès : Fond #1A3D6E 10%
+      - Durée : 5 secondes
+      - Position : Haut droite</p>
+
+      <p><span style="color: #B56A4B;">Notices :</span>
+      - Fond : #1A3D6E 10%
+      - Texte : #1A3D6E
+      - Icônes : 16x16px</p>
+    </div>
+  </foreignObject>
+</svg>

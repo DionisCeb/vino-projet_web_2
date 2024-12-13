@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titre -->
+  <text x="50" y="50" font-family="Playfair Display, serif" font-size="24" font-weight="bold" fill="#1A3D6E">
+    Boutons - Système de Design VINO
+  </text>
+
+  <!-- Boutons Primaires -->
+  <text x="50" y="90" font-family="Cormorant Garamond, serif" font-size="18" fill="#B56A4B">1. Boutons Primaires</text>
+  
+  <!-- Normal -->
+  <rect x="50" y="100" width="150" height="40" rx="4" fill="#1A3D6E"/>
+  <text x="75" y="125" font-family="Lato, sans-serif" font-size="14" fill="#F1F1F1">Ajouter au cellier</text>
+  
+  <!-- Hover -->
+  <rect x="220" y="100" width="150" height="40" rx="4" fill="#B56A4B"/>
+  <text x="245" y="125" font-family="Lato, sans-serif" font-size="14" fill="#F1F1F1">Hover</text>
+  
+  <!-- Disabled -->
+  <rect x="390" y="100" width="150" height="40" rx="4" fill="#1A3D6E" opacity="0.5"/>
+  <text x="415" y="125" font-family="Lato, sans-serif" font-size="14" fill="#F1F1F1">Désactivé</text>
+
+  <!-- Boutons Secondaires -->
+  <text x="50" y="190" font-family="Cormorant Garamond, serif" font-size="18" fill="#B56A4B">2. Boutons Secondaires</text>
+  
+  <!-- Normal -->
+  <rect x="50" y="200" width="150" height="40" rx="4" fill="none" stroke="#1A3D6E" stroke-width="2"/>
+  <text x="95" y="225" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">Modifier</text>
+  
+  <!-- Hover -->
+  <rect x="220" y="200" width="150" height="40" rx="4" fill="#F1F1F1" stroke="#B56A4B" stroke-width="2"/>
+  <text x="265" y="225" font-family="Lato, sans-serif" font-size="14" fill="#B56A4B">Hover</text>
+  
+  <!-- Disabled -->
+  <rect x="390" y="200" width="150" height="40" rx="4" fill="none" stroke="#1A3D6E" stroke-width="2" opacity="0.5"/>
+  <text x="435" y="225" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E" opacity="0.5">Désactivé</text>
+
+  <!-- Boutons Tertiaires -->
+  <text x="50" y="290" font-family="Cormorant Garamond, serif" font-size="18" fill="#B56A4B">3. Boutons Tertiaires</text>
+  
+  <!-- Normal -->
+  <text x="50" y="325" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">Voir plus</text>
+  
+  <!-- Hover -->
+  <text x="220" y="325" font-family="Lato, sans-serif" font-size="14" fill="#B56A4B">Hover</text>
+  
+  <!-- Disabled -->
+  <text x="390" y="325" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E" opacity="0.5">Désactivé</text>
+
+  <!-- Explications -->
+  <foreignObject x="50" y="380" width="700" height="400">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Lato, sans-serif; font-size: 14px; line-height: 1.5;">
+      <p style="color: #1A3D6E; font-weight: bold;">Justification et Usage :</p>
+      
+      <p style="color: #000000;"><span style="color: #B56A4B;">Boutons Primaires :</span>
+      - Fond bleu marine pour actions principales
+      - Hover cuivré pour chaleur et engagement
+      - Border-radius 4px pour douceur
+      - Utilisation : ajout de vin, sauvegarde, actions majeures</p>
+      
+      <p style="color: #000000;"><span style="color: #B56A4B;">Boutons Secondaires :</span>
+      - Contour bleu pour actions importantes mais non critiques
+      - Hover subtil avec fond blanc cassé
+      - Utilisation : modification, filtres, actions de support</p>
+      
+      <p style="color: #000000;"><span style="color: #B56A4B;">Boutons Tertiaires :</span>
+      - Style texte pour actions légères
+      - Hover cuivré pour cohérence
+      - Utilisation : voir plus, navigation secondaire, liens</p>
+      
+      <p style="color: #000000;"><span style="color: #B56A4B;">États :</span>
+      - Normal : état par défaut
+      - Hover : feedback visuel clair
+      - Désactivé : opacité réduite pour indiquer l'indisponibilité</p>
+    </div>
+  </foreignObject>
+</svg>

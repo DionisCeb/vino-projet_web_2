@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titre -->
+  <text x="50" y="50" font-family="Playfair Display, serif" font-size="24" font-weight="bold" fill="#1A3D6E">
+    Système d'Icônes - VINO
+  </text>
+
+  <!-- Grille d'icônes -->
+  <!-- Recherche -->
+  <circle cx="80" cy="120" r="15" fill="none" stroke="#1A3D6E" stroke-width="2"/>
+  <line x1="90" y1="130" x2="100" y2="140" stroke="#1A3D6E" stroke-width="2"/>
+  <text x="50" y="170" font-family="Lato, sans-serif" font-size="12" fill="#B56A4B">Recherche</text>
+
+  <!-- Notation -->
+  <path d="M180 110 L190 130 L210 130 L195 145 L200 165 L180 152 L160 165 L165 145 L150 130 L170 130 Z" 
+        fill="#1A3D6E"/>
+  <text x="160" y="170" font-family="Lato, sans-serif" font-size="12" fill="#B56A4B">Notation</text>
+
+  <!-- Ajouter -->
+  <circle cx="280" cy="120" r="15" fill="#1A3D6E"/>
+  <line x1="270" y1="120" x2="290" y2="120" stroke="#F1F1F1" stroke-width="2"/>
+  <line x1="280" y1="110" x2="280" y2="130" stroke="#F1F1F1" stroke-width="2"/>
+  <text x="260" y="170" font-family="Lato, sans-serif" font-size="12" fill="#B56A4B">Ajouter</text>
+
+  <!-- Navigation -->
+  <path d="M80 220 L100 240 L80 260" fill="none" stroke="#1A3D6E" stroke-width="2"/>
+  <text x="60" y="290" font-family="Lato, sans-serif" font-size="12" fill="#B56A4B">Navigation</text>
+
+  <!-- Filtres -->
+  <rect x="170" y="220" width="20" height="40" fill="#1A3D6E"/>
+  <rect x="180" y="230" width="20" height="30" fill="#1A3D6E"/>
+  <rect x="190" y="240" width="20" height="20" fill="#1A3D6E"/>
+  <text x="170" y="290" font-family="Lato, sans-serif" font-size="12" fill="#B56A4B">Filtres</text>
+
+  <!-- Partage -->
+  <circle cx="280" cy="240" r="15" fill="#1A3D6E"/>
+  <path d="M270 240 L290 230 L290 250 Z" fill="#F1F1F1"/>
+  <text x="260" y="290" font-family="Lato, sans-serif" font-size="12" fill="#B56A4B">Partage</text>
+
+  <!-- Spécifications -->
+  <foreignObject x="50" y="320" width="700" height="400">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Lato, sans-serif; font-size: 14px; line-height: 1.5;">
+      <p style="color: #1A3D6E; font-weight: bold;">Spécifications :</p>
+
+      <p><span style="color: #B56A4B;">Couleurs :</span>
+      - Principal : #1A3D6E
+      - Accent : #B56A4B
+      - Inactif : Opacité 30%</p>
+
+      <p><span style="color: #B56A4B;">Tailles :</span>
+      - Small : 16x16px
+      - Medium : 24x24px
+      - Large : 32x32px</p>
+
+      <p><span style="color: #B56A4B;">Style :</span>
+      - Épaisseur trait : 2px
+      - Angles arrondis : 2px
+      - Style minimal et épuré</p>
+
+      <p><span style="color: #B56A4B;">États :</span>
+      - Normal : #1A3D6E
+      - Hover : #B56A4B
+      - Active : Opacité 80%
+      - Désactivé : Opacité 30%</p>
+
+      <p><span style="color: #B56A4B;">Interactions :</span>
+      - Transition : 0.2s
+      - Feedback visuel au hover
+      - Animation subtile au clic</p>
+    </div>
+  </foreignObject>
+</svg>

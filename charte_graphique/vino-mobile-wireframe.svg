@@ -1,0 +1,105 @@
+<svg viewBox="0 0 500 1500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Header Mobile -->
+  <g transform="translate(0,0)">
+    <!-- Top Bar -->
+    <rect x="0" y="0" width="500" height="70" fill="#f5f5f5" stroke="#666666"/>
+    <!-- Menu Burger -->
+    <rect x="20" y="20" width="30" height="30" fill="#333333"/>
+    <line x1="25" y1="28" x2="45" y2="28" stroke="#ffffff" stroke-width="2"/>
+    <line x1="25" y1="35" x2="45" y2="35" stroke="#ffffff" stroke-width="2"/>
+    <line x1="25" y1="42" x2="45" y2="42" stroke="#ffffff" stroke-width="2"/>
+    <!-- Logo -->
+    <rect x="200" y="15" width="100" height="40" fill="#dddddd"/>
+    <!-- Profil Icon -->
+    <circle cx="450" cy="35" r="15" fill="#333333"/>
+  </g>
+
+  <!-- Search Bar -->
+  <rect x="20" y="90" width="460" height="50" rx="25" fill="#ffffff" stroke="#666666"/>
+  <text x="50" y="120" font-family="Arial" font-size="14" fill="#666666">Rechercher un vin...</text>
+
+  <!-- Hero Section -->
+  <g transform="translate(0,160)">
+    <rect x="0" y="0" width="500" height="300" fill="#dddddd"/>
+    <text x="20" y="60" font-family="Arial" font-size="28">Votre collection</text>
+    <text x="20" y="100" font-family="Arial" font-size="28">de vins</text>
+    <rect x="20" y="140" width="250" height="50" rx="25" fill="#333333"/>
+    <text x="145" y="170" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">CRÉER MON CELLIER</text>
+  </g>
+
+  <!-- Features -->
+  <g transform="translate(0,480)">
+    <!-- Feature 1 -->
+    <rect x="20" y="0" width="460" height="200" fill="#eeeeee"/>
+    <text x="40" y="40" font-family="Arial" font-size="20">Gestion Simple</text>
+    <text x="40" y="70" font-family="Arial" font-size="14">Ajoutez et gérez vos bouteilles</text>
+    
+    <!-- Feature 2 -->
+    <rect x="20" y="220" width="460" height="200" fill="#eeeeee"/>
+    <text x="40" y="260" font-family="Arial" font-size="20">Organisation</text>
+    <text x="40" y="290" font-family="Arial" font-size="14">Classez par région, cépage, millésime</text>
+
+    <!-- Feature 3 -->
+    <rect x="20" y="440" width="460" height="200" fill="#eeeeee"/>
+    <text x="40" y="480" font-family="Arial" font-size="20">Suivi</text>
+    <text x="40" y="510" font-family="Arial" font-size="14">Statistiques et état de la collection</text>
+  </g>
+
+  <!-- Footer Mobile -->
+  <g transform="translate(0,1140)">
+    <rect x="0" y="0" width="500" height="350" fill="#f5f5f5"/>
+    
+    <!-- Sections Footer -->
+    <g transform="translate(20,30)">
+      <!-- À propos -->
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold">À propos</text>
+      <text x="0" y="40" font-family="Arial" font-size="16">Notre histoire</text>
+      <text x="0" y="70" font-family="Arial" font-size="16">Blog</text>
+
+      <!-- Support -->
+      <text x="0" y="120" font-family="Arial" font-size="18" font-weight="bold">Support</text>
+      <text x="0" y="160" font-family="Arial" font-size="16">FAQ</text>
+      <text x="0" y="190" font-family="Arial" font-size="16">Contact</text>
+
+      <!-- Newsletter -->
+      <text x="0" y="240" font-family="Arial" font-size="18" font-weight="bold">Newsletter</text>
+      <rect x="0" y="260" width="460" height="50" rx="25" fill="#ffffff" stroke="#666666"/>
+    </g>
+
+    <!-- Copyright -->
+    <line x1="20" y1="330" x2="480" y2="330" stroke="#666666"/>
+    <text x="250" y="345" font-family="Arial" font-size="12" text-anchor="middle">© 2024 VINO. Tous droits réservés.</text>
+  </g>
+
+  <!-- Spécifications -->
+  <foreignObject x="520" y="0" width="300" height="1000">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 12px;">
+      <p style="font-weight: bold">Spécifications Mobile :</p>
+      <ul>
+        <li>Largeur : 500px max</li>
+        <li>Header : 70px hauteur</li>
+        <li>Boutons touch : min 44x44px</li>
+        <li>Police min : 16px</li>
+        <li>Marges : 20px</li>
+      </ul>
+
+      <p style="font-weight: bold">Adaptations Seniors :</p>
+      <ul>
+        <li>Boutons plus grands</li>
+        <li>Navigation simplifiée</li>
+        <li>Menu burger visible</li>
+        <li>Contraste renforcé</li>
+        <li>Scroll vertical uniquement</li>
+      </ul>
+
+      <p style="font-weight: bold">Éléments clés :</p>
+      <ul>
+        <li>Menu burger facile d'accès</li>
+        <li>Recherche proéminente</li>
+        <li>CTA principal visible</li>
+        <li>Features empilées</li>
+        <li>Footer simplifié</li>
+      </ul>
+    </div>
+  </foreignObject>
+</svg>

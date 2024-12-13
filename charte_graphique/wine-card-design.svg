@@ -1,0 +1,72 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titre -->
+  <text x="50" y="50" font-family="Playfair Display, serif" font-size="24" font-weight="bold" fill="#1A3D6E">
+    Cartes de Vin - Système de Design VINO
+  </text>
+
+  <!-- Exemple de Carte -->
+  <rect x="50" y="80" width="300" height="400" rx="8" fill="#F1F1F1" stroke="#1A3D6E"/>
+  
+  <!-- Zone Image -->
+  <rect x="70" y="100" width="260" height="200" rx="4" fill="#B56A4B" opacity="0.1"/>
+  <text x="150" y="200" font-family="Lato, sans-serif" font-size="14" fill="#B56A4B">Image Bouteille</text>
+  
+  <!-- Informations -->
+  <text x="70" y="330" font-family="Playfair Display, serif" font-size="16" fill="#1A3D6E">Château Example 2018</text>
+  <text x="70" y="350" font-family="Lato, sans-serif" font-size="14" fill="#B56A4B">Bordeaux, France</text>
+  
+  <!-- Notation -->
+  <circle cx="70" cy="370" r="12" fill="#1A3D6E"/>
+  <circle cx="100" cy="370" r="12" fill="#1A3D6E"/>
+  <circle cx="130" cy="370" r="12" fill="#1A3D6E"/>
+  <circle cx="160" cy="370" r="12" fill="#1A3D6E" opacity="0.3"/>
+  <circle cx="190" cy="370" r="12" fill="#1A3D6E" opacity="0.3"/>
+  
+  <!-- Actions Rapides -->
+  <rect x="70" y="400" width="120" height="30" rx="4" fill="#1A3D6E"/>
+  <text x="90" y="420" font-family="Lato, sans-serif" font-size="12" fill="#F1F1F1">Ajouter au cellier</text>
+  
+  <circle cx="220" cy="415" r="15" fill="#B56A4B"/>
+  <text x="216" y="420" font-family="Lato, sans-serif" font-size="12" fill="#F1F1F1">♡</text>
+
+  <!-- Spécifications -->
+  <foreignObject x="400" y="80" width="350" height="600">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Lato, sans-serif; font-size: 14px; line-height: 1.5;">
+      <p style="color: #1A3D6E; font-weight: bold;">Spécifications :</p>
+
+      <p><span style="color: #B56A4B;">Layout :</span>
+      - Carte : 300x400px
+      - Fond : #F1F1F1
+      - Bordure : #1A3D6E
+      - Border-radius : 8px
+      - Ombre portée : 0 2px 4px rgba(0,0,0,0.1)</p>
+
+      <p><span style="color: #B56A4B;">Image :</span>
+      - Zone : 260x200px
+      - Centrage automatique
+      - Format : PNG/JPG
+      - Fond de substitution : #B56A4B10</p>
+
+      <p><span style="color: #B56A4B;">Informations :</span>
+      - Nom : Playfair Display, 16px, #1A3D6E
+      - Détails : Lato, 14px, #B56A4B
+      - Marges internes : 20px</p>
+
+      <p><span style="color: #B56A4B;">Notation :</span>
+      - Étoiles/Verres : #1A3D6E
+      - Inactive : Opacité 30%
+      - Hover : #B56A4B</p>
+
+      <p><span style="color: #B56A4B;">Actions rapides :</span>
+      - Bouton principal : #1A3D6E
+      - Favoris : #B56A4B
+      - Hover : Opacité 90%
+      - Transition : 0.2s</p>
+
+      <p><span style="color: #B56A4B;">États :</span>
+      - Hover : Légère élévation (ombre)
+      - Focus : Bordure #B56A4B
+      - Active : Scale 0.98</p>
+    </div>
+  </foreignObject>
+</svg>

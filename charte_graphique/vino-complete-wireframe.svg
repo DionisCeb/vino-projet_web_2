@@ -1,0 +1,128 @@
+<svg viewBox="0 0 1400 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond -->
+  <rect x="0" y="0" width="1400" height="1200" fill="#ffffff"/>
+
+  <!-- Header détaillé - 1200x80px -->
+  <g transform="translate(100,20)">
+    <rect width="1200" height="80" fill="#f5f5f5" stroke="#666666"/>
+    <!-- Logo -->
+    <rect x="20" y="10" width="180" height="60" fill="#dddddd"/>
+    <text x="110" y="45" font-family="Arial" font-size="12" text-anchor="middle">LOGO VINO</text>
+    
+    <!-- Navigation -->
+    <g transform="translate(220,0)">
+      <rect x="0" y="0" width="780" height="80" fill="#eeeeee"/>
+      <!-- Menu items -->
+      <text x="60" y="45" font-family="Arial" font-size="14">MON CELLIER</text>
+      <text x="200" y="45" font-family="Arial" font-size="14">COLLECTION</text>
+      <text x="340" y="45" font-family="Arial" font-size="14">STATISTIQUES</text>
+      <text x="480" y="45" font-family="Arial" font-size="14">RECHERCHE</text>
+      
+      <!-- Search Bar -->
+      <rect x="580" y="25" width="180" height="30" fill="#ffffff" stroke="#666666"/>
+      <text x="600" y="45" font-family="Arial" font-size="12">Rechercher un vin...</text>
+    </g>
+    
+    <!-- Login/Profile -->
+    <rect x="1020" y="20" width="160" height="40" fill="#333333"/>
+    <text x="1100" y="45" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">CONNEXION</text>
+  </g>
+
+  <!-- Hero Section -->
+  <g transform="translate(100,120)">
+    <rect width="1200" height="400" fill="#dddddd"/>
+    <text x="60" y="80" font-family="Arial" font-size="32">Votre collection de vins</text>
+    <text x="60" y="120" font-family="Arial" font-size="24">Simple. Organisée. Personnalisée.</text>
+    <rect x="60" y="160" width="250" height="50" fill="#333333"/>
+    <text x="185" y="190" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">CRÉER MON CELLIER</text>
+  </g>
+
+  <!-- Features -->
+  <g transform="translate(100,540)">
+    <!-- Gestion -->
+    <rect width="380" height="250" fill="#eeeeee"/>
+    <text x="190" y="50" font-family="Arial" font-size="20" text-anchor="middle">Gestion Simple</text>
+    <text x="190" y="80" font-family="Arial" font-size="14" text-anchor="middle">Ajoutez et gérez vos bouteilles</text>
+
+    <!-- Organisation -->
+    <rect x="410" width="380" height="250" fill="#eeeeee"/>
+    <text x="600" y="50" font-family="Arial" font-size="20" text-anchor="middle">Organisation</text>
+    <text x="600" y="80" font-family="Arial" font-size="14" text-anchor="middle">Classez par région, cépage, millésime</text>
+
+    <!-- Suivi -->
+    <rect x="820" width="380" height="250" fill="#eeeeee"/>
+    <text x="1010" y="50" font-family="Arial" font-size="20" text-anchor="middle">Suivi</text>
+    <text x="1010" y="80" font-family="Arial" font-size="14" text-anchor="middle">Statistiques et état de la collection</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(100,900)">
+    <rect width="1200" height="250" fill="#f5f5f5"/>
+    
+    <!-- Colonnes footer -->
+    <g transform="translate(50,30)">
+      <!-- À propos -->
+      <text x="0" y="0" font-family="Arial" font-size="16" font-weight="bold">À propos</text>
+      <text x="0" y="30" font-family="Arial" font-size="14">Notre histoire</text>
+      <text x="0" y="60" font-family="Arial" font-size="14">Blog</text>
+      <text x="0" y="90" font-family="Arial" font-size="14">Mentions légales</text>
+
+      <!-- Support -->
+      <text x="300" y="0" font-family="Arial" font-size="16" font-weight="bold">Support</text>
+      <text x="300" y="30" font-family="Arial" font-size="14">FAQ</text>
+      <text x="300" y="60" font-family="Arial" font-size="14">Contact</text>
+      <text x="300" y="90" font-family="Arial" font-size="14">Guide d'utilisation</text>
+
+      <!-- Réseaux -->
+      <text x="600" y="0" font-family="Arial" font-size="16" font-weight="bold">Suivez-nous</text>
+      <text x="600" y="30" font-family="Arial" font-size="14">Facebook</text>
+      <text x="600" y="60" font-family="Arial" font-size="14">Instagram</text>
+
+      <!-- Newsletter -->
+      <text x="900" y="0" font-family="Arial" font-size="16" font-weight="bold">Newsletter</text>
+      <rect x="900" y="20" width="200" height="40" fill="#ffffff" stroke="#666666"/>
+    </g>
+
+    <!-- Copyright -->
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#666666"/>
+    <text x="600" y="230" font-family="Arial" font-size="12" text-anchor="middle">© 2024 VINO. Tous droits réservés.</text>
+  </g>
+
+  <!-- Spécifications -->
+  <foreignObject x="1200" y="20" width="200" height="1000">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 12px;">
+      <p style="font-weight: bold">Dimensions clés :</p>
+      <ul>
+        <li>Largeur site : 1200px</li>
+        <li>Header : 80px hauteur</li>
+        <li>Hero : 400px hauteur</li>
+        <li>Features : 250px hauteur</li>
+        <li>Footer : 250px hauteur</li>
+      </ul>
+
+      <p style="font-weight: bold">Navigation :</p>
+      <ul>
+        <li>Menu : 16px</li>
+        <li>Boutons CTA : 40px hauteur</li>
+        <li>Search bar : 180x30px</li>
+      </ul>
+
+      <p style="font-weight: bold">Typographie :</p>
+      <ul>
+        <li>H1 : 32px</li>
+        <li>H2 : 24px</li>
+        <li>H3 : 20px</li>
+        <li>Corps : 14px</li>
+      </ul>
+
+      <p style="font-weight: bold">Adaptations 40-65 ans :</p>
+      <ul>
+        <li>Navigation claire et intuitive</li>
+        <li>Grande taille de texte</li>
+        <li>Boutons larges</li>
+        <li>Contraste élevé</li>
+        <li>Espacement généreux</li>
+      </ul>
+    </div>
+  </foreignObject>
+</svg>

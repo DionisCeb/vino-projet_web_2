@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titre -->
+  <text x="50" y="50" font-family="Playfair Display, serif" font-size="24" font-weight="bold" fill="#1A3D6E">
+    Tableaux et Listes - VINO
+  </text>
+
+  <!-- Exemple de Tableau -->
+  <!-- En-tête -->
+  <rect x="50" y="80" width="600" height="50" fill="#1A3D6E"/>
+  <text x="70" y="110" font-family="Lato, sans-serif" font-size="14" fill="#F1F1F1">Nom du vin</text>
+  <text x="270" y="110" font-family="Lato, sans-serif" font-size="14" fill="#F1F1F1">Millésime</text>
+  <text x="420" y="110" font-family="Lato, sans-serif" font-size="14" fill="#F1F1F1">Quantité</text>
+  <text x="570" y="110" font-family="Lato, sans-serif" font-size="14" fill="#F1F1F1">Actions</text>
+
+  <!-- Lignes -->
+  <rect x="50" y="130" width="600" height="50" fill="#F1F1F1"/>
+  <text x="70" y="160" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">Château Margaux</text>
+  <text x="270" y="160" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">2015</text>
+  <text x="420" y="160" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">3</text>
+
+  <rect x="50" y="180" width="600" height="50" fill="#FFFFFF"/>
+  <text x="70" y="210" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">Romanée-Conti</text>
+  <text x="270" y="210" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">2018</text>
+  <text x="420" y="210" font-family="Lato, sans-serif" font-size="14" fill="#1A3D6E">1</text>
+
+  <!-- Pagination -->
+  <rect x="50" y="250" width="600" height="40" fill="#F1F1F1"/>
+  <rect x="270" y="260" width="30" height="20" fill="#1A3D6E"/>
+  <text x="280" y="275" font-family="Lato, sans-serif" font-size="12" fill="#F1F1F1">1</text>
+  <rect x="310" y="260" width="30" height="20" fill="#F1F1F1" stroke="#1A3D6E"/>
+  <text x="320" y="275" font-family="Lato, sans-serif" font-size="12" fill="#1A3D6E">2</text>
+
+  <!-- Spécifications -->
+  <foreignObject x="50" y="320" width="700" height="400">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Lato, sans-serif; font-size: 14px; line-height: 1.5;">
+      <p style="color: #1A3D6E; font-weight: bold;">Spécifications :</p>
+
+      <p><span style="color: #B56A4B;">En-têtes de colonnes :</span>
+      - Fond : #1A3D6E
+      - Texte : #F1F1F1
+      - Police : Lato Bold
+      - Hauteur : 50px
+      - Icônes de tri en blanc</p>
+
+      <p><span style="color: #B56A4B;">Lignes de données :</span>
+      - Alternance : #F1F1F1 / #FFFFFF
+      - Texte : #1A3D6E
+      - Police : Lato Regular
+      - Hauteur : 50px
+      - Hover : Opacité 90%</p>
+
+      <p><span style="color: #B56A4B;">Pagination :</span>
+      - Actif : #1A3D6E, texte blanc
+      - Inactif : Bordure #1A3D6E
+      - Police : Lato
+      - Taille : 30x20px
+      - Espacement : 10px</p>
+
+      <p><span style="color: #B56A4B;">Tri et filtres :</span>
+      - Icônes : 16x16px
+      - Actif : #B56A4B
+      - Alignement : droite de l'en-tête
+      - Hover : Opacité 80%</p>
+    </div>
+  </foreignObject>
+</svg>

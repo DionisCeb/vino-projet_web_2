@@ -1,0 +1,78 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Titre -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1A3D6E">
+    Charte graphique - Univers visuel VINO
+  </text>
+
+  <!-- Logo version bleue sur fond cuivre -->
+  <rect x="50" y="80" width="350" height="200" fill="#B56A4B"/>
+  <g transform="translate(125, 90) scale(0.6)">
+    <circle cx="200" cy="150" r="85" fill="#1A3D6E"/>
+    <circle cx="200" cy="150" r="75" fill="none" stroke="#B56A4B" stroke-width="2" stroke-dasharray="3,3"/>
+    <path d="M190 60 L190 85 L185 90 L185 100 L175 120 L175 190 C175 200 225 200 225 190 L225 120 L215 100 L215 90 L210 85 L210 60 Z" fill="#B56A4B"/>
+    <rect x="190" y="60" width="20" height="30" fill="#B56A4B"/>
+    <path d="M193 55 L193 60 L207 60 L207 55 C207 52 193 52 193 55" fill="#B56A4B"/>
+    <path d="M195 65 L195 90 L190 100 L190 180 C190 185 200 185 200 180 L200 65" fill="#F1F1F1" opacity="0.2"/>
+    <path d="M110,210 A98,90 0 0,1 290,210" fill="none" id="curve1"/>
+    <text fill="#F1F1F1" font-family="Palatino, serif" font-size="54" font-weight="bold">
+      <textPath href="#curve1" startOffset="50%" text-anchor="middle">VINO</textPath>
+    </text>
+  </g>
+
+  <!-- Logo version cuivre sur fond bleu -->
+  <rect x="420" y="80" width="350" height="200" fill="#1A3D6E"/>
+  <g transform="translate(495, 90) scale(0.6)">
+    <circle cx="200" cy="150" r="85" fill="#B56A4B"/>
+    <circle cx="200" cy="150" r="75" fill="none" stroke="#1A3D6E" stroke-width="2" stroke-dasharray="3,3"/>
+    <path d="M190 60 L190 85 L185 90 L185 100 L175 120 L175 190 C175 200 225 200 225 190 L225 120 L215 100 L215 90 L210 85 L210 60 Z" fill="#1A3D6E"/>
+    <rect x="190" y="60" width="20" height="30" fill="#1A3D6E"/>
+    <path d="M193 55 L193 60 L207 60 L207 55 C207 52 193 52 193 55" fill="#1A3D6E"/>
+    <path d="M195 65 L195 90 L190 100 L190 180 C190 185 200 185 200 180 L200 65" fill="#F1F1F1" opacity="0.2"/>
+    <path d="M110,210 A98,90 0 0,1 290,210" fill="none" id="curve2"/>
+    <text fill="#F1F1F1" font-family="Palatino, serif" font-size="54" font-weight="bold">
+      <textPath href="#curve2" startOffset="50%" text-anchor="middle">VINO</textPath>
+    </text>
+  </g>
+
+  <!-- Logo version blanc sur fond noir -->
+  <rect x="50" y="300" width="350" height="200" fill="#000000"/>
+  <g transform="translate(125, 310) scale(0.6)">
+    <circle cx="200" cy="150" r="85" fill="#F1F1F1"/>
+    <circle cx="200" cy="150" r="75" fill="none" stroke="#B56A4B" stroke-width="2" stroke-dasharray="3,3"/>
+    <path d="M190 60 L190 85 L185 90 L185 100 L175 120 L175 190 C175 200 225 200 225 190 L225 120 L215 100 L215 90 L210 85 L210 60 Z" fill="#B56A4B"/>
+    <rect x="190" y="60" width="20" height="30" fill="#B56A4B"/>
+    <path d="M193 55 L193 60 L207 60 L207 55 C207 52 193 52 193 55" fill="#B56A4B"/>
+    <path d="M195 65 L195 90 L190 100 L190 180 C190 185 200 185 200 180 L200 65" fill="#1A3D6E" opacity="0.2"/>
+    <path d="M110,210 A98,90 0 0,1 290,210" fill="none" id="curve3"/>
+    <text fill="#1A3D6E" font-family="Palatino, serif" font-size="54" font-weight="bold">
+      <textPath href="#curve3" startOffset="50%" text-anchor="middle">VINO</textPath>
+    </text>
+  </g>
+
+  <!-- Logo version noir sur fond blanc -->
+  <rect x="420" y="300" width="350" height="200" fill="#F1F1F1"/>
+  <g transform="translate(495, 310) scale(0.6)">
+    <circle cx="200" cy="150" r="85" fill="#000000"/>
+    <circle cx="200" cy="150" r="75" fill="none" stroke="#B56A4B" stroke-width="2" stroke-dasharray="3,3"/>
+    <path d="M190 60 L190 85 L185 90 L185 100 L175 120 L175 190 C175 200 225 200 225 190 L225 120 L215 100 L215 90 L210 85 L210 60 Z" fill="#B56A4B"/>
+    <rect x="190" y="60" width="20" height="30" fill="#B56A4B"/>
+    <path d="M193 55 L193 60 L207 60 L207 55 C207 52 193 52 193 55" fill="#B56A4B"/>
+    <path d="M195 65 L195 90 L190 100 L190 180 C190 185 200 185 200 180 L200 65" fill="#F1F1F1" opacity="0.2"/>
+    <path d="M110,210 A98,90 0 0,1 290,210" fill="none" id="curve4"/>
+    <text fill="#F1F1F1" font-family="Palatino, serif" font-size="54" font-weight="bold">
+      <textPath href="#curve4" startOffset="50%" text-anchor="middle">VINO</textPath>
+    </text>
+  </g>
+
+  <!-- Titre Symbolique -->
+  <text x="50" y="540" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1A3D6E">
+    Symbolique des logos
+  </text>
+
+  <!-- Texte explicatif -->
+  <foreignObject x="50" y="560" width="720" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #333333;">
+      Ces variations du logo VINO ont été conçues pour s'adapter à différents contextes visuels tout en maintenant une identité forte. La combinaison de la bouteille et du texte circulaire crée une marque reconnaissable qui fonctionne sur tous les fonds, du plus clair au plus foncé.
+    </div>
+  </foreignObject>
+</svg>

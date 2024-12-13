@@ -1,0 +1,61 @@
+<svg viewBox="0 0 350 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- La carte réelle -->
+  <rect width="350" height="270" rx="12" fill="#ffffff" stroke="#cccccc"/>
+
+  <!-- Structure et guides -->
+  <!-- Marges verticales de 24px -->
+  <line x1="0" y1="24" x2="350" y2="24" stroke="#ff0000" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="0" y1="246" x2="350" y2="246" stroke="#ff0000" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Marges horizontales de 24px -->
+  <line x1="24" y1="0" x2="24" y2="270" stroke="#ff0000" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="326" y1="0" x2="326" y2="270" stroke="#ff0000" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Image bouteille centré -->
+  <rect x="125" y="24" width="100" height="140" fill="#dddddd"/>
+
+  <!-- Textes -->
+  <!-- Titre (24px depuis le haut) -->
+  <text x="24" y="190" font-family="Playfair Display, serif" font-size="18">Vin Rose Del Bruno el Rosini</text>
+  <!-- Millésime (16px depuis le titre) -->
+  <text x="24" y="214" font-family="Lato, sans-serif" font-size="16">Liano 2009</text>
+
+  <!-- Tags (24px depuis le millésime) -->
+  <g transform="translate(24,238)">
+    <rect width="72" height="32" rx="16" fill="#f5f5f5"/>
+    <text x="36" y="20" font-family="Lato, sans-serif" font-size="12" text-anchor="middle">Vin rouge</text>
+
+    <rect x="84" width="64" height="32" rx="16" fill="#f5f5f5"/>
+    <text x="116" y="20" font-family="Lato, sans-serif" font-size="12" text-anchor="middle">700 ml</text>
+
+    <rect x="160" width="64" height="32" rx="16" fill="#f5f5f5"/>
+    <text x="192" y="20" font-family="Lato, sans-serif" font-size="12" text-anchor="middle">France</text>
+
+    <text x="260" y="20" font-family="Lato, sans-serif" font-size="14">35.99 $</text>
+  </g>
+
+  <!-- Annotations -->
+  <foreignObject x="0" y="300" width="350" height="150">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 12px;">
+      <ul style="color: #666666;">
+        <li>Marges externes: 24px tout autour</li>
+        <li>Image: centrée, largeur 100px</li>
+        <li>Espacement entre éléments: 16px</li>
+        <li>Tags: hauteur 32px, rayon 16px</li>
+        <li>Espacement entre tags: 12px</li>
+        <li>Padding interne tags: 16px horizontal</li>
+        <li>Hauteur totale carte: 270px</li>
+      </ul>
+    </div>
+  </foreignObject>
+
+  <!-- Grille d'alignement -->
+  <g stroke="#0000ff" stroke-width="1" stroke-dasharray="2,2" opacity="0.3">
+    <!-- Verticale -->
+    <line x1="175" y1="0" x2="175" y2="270"/>
+    <!-- Horizontales -->
+    <line x1="0" y1="94" x2="350" y2="94"/>
+    <line x1="0" y1="190" x2="350" y2="190"/>
+    <line x1="0" y1="238" x2="350" y2="238"/>
+  </g>
+</svg>
