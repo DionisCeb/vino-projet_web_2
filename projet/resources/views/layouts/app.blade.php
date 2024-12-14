@@ -9,7 +9,7 @@
     <header>
         <ul>
             <li>
-                <a href="#">Bottles</a>
+                <a href="{{ route('bottle.index') }}">Bottles</a>
             </li>
         </ul>
         <ul>

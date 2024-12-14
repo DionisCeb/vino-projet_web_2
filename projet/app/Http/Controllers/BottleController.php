@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Bottle;
+use App\Models\SAQ_CRUD;
 use Illuminate\Http\Request;
+use App\Providers\View;
 
 class BottleController extends Controller
 {
@@ -12,8 +14,7 @@ class BottleController extends Controller
      */
     public function index()
     {
-        $bottles = Bottle::all();
-        return $bottles;
+
     }
 
     /**
