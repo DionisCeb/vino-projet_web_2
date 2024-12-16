@@ -27,11 +27,11 @@ class BouteilleController extends Controller
         $nextUrl = "https://www.saq.com/en/products/wine";
 
         while ($nextUrl) {
-            echo "Scraping: $nextUrl\n";
+            echo "Dionis' custom scraping hook for URL: $nextUrl\n";
             $nextUrl = $this->scrapeSAQWines($nextUrl, $client);
         }
 
-        return "Scraping completed!";
+        return "Dionis' Scraping completed!";
     }
 
     /**
