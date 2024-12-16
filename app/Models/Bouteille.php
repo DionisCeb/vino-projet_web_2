@@ -11,5 +11,6 @@ class Bouteille extends Model
 
     protected $fillable = [
         'title',
+        'price'
     ];
 }

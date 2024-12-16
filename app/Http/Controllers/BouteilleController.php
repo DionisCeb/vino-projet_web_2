@@ -42,11 +42,25 @@ class BouteilleController extends Controller
         $crawler = $client->request('GET', $url);
 
         $crawler->filter('a.product-item-link')->each(function ($node) {
+            // Extract the title
             $title = trim($node->text());
-            echo "Wine Title: $title\n";
 
-            Bouteille::create(['title' => $title]);
+            // Find the closest price container and extract the price
+            $priceNode = $node->closest('li.product-item')
+                            ->filter('.price-box .price')
+                            ->first();
+
+            $price = $priceNode->count() ? trim($priceNode->text()) : 'N/A';
+
+            echo "Wine Title: $title | Price: $price\n";
+
+            // Insert the title and price into the database
+            Bouteille::create([
+                'title' => $title,
+                'price' => $price
+            ]);
         });
+
 
         // Handle pagination
         try {
