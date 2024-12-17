@@ -11,6 +11,14 @@ class Bouteille extends Model
 
     protected $fillable = [
         'title',
-        'price'
+        'price',
+        'saq_link',
+        'saq_code',
+        'country',
+        'region',
+        'degree_alcohol',
+        'color',
+        'size',
+
     ];
 }

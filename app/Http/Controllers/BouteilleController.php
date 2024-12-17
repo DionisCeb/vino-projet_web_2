@@ -40,28 +40,39 @@ class BouteilleController extends Controller
     private function scrapeSAQWines($url, $client)
     {
         $crawler = $client->request('GET', $url);
-
-        $crawler->filter('a.product-item-link')->each(function ($node) {
+    
+        $crawler->filter('li.product-item')->each(function ($node) use ($client) {
             // Extract the title
-            $title = trim($node->text());
-
-            // Find the closest price container and extract the price
-            $priceNode = $node->closest('li.product-item')
-                            ->filter('.price-box .price')
-                            ->first();
-
+            $titleNode = $node->filter('a.product-item-link');
+            $title = $titleNode->count() ? trim($titleNode->text()) : 'N/A';
+    
+            // Extract the price
+            $priceNode = $node->filter('.price-box .price');
             $price = $priceNode->count() ? trim($priceNode->text()) : 'N/A';
-
-            echo "Wine Title: $title | Price: $price\n";
-
-            // Insert the title and price into the database
+    
+            // Extract the SAQ link (href attribute)
+            $linkNode = $node->filter('a.product-item-photo');
+            $saqLink = $linkNode->count() ? $linkNode->attr('href') : 'N/A';
+    
+            echo "Scraping Details for: $title | $saqLink\n";
+    
+            // Visit the detailed page to extract the SAQ code
+            $detailedData = $this->scrapeBouteilleDetails($saqLink, $client);
+    
+            // Insert the data into the database
             Bouteille::create([
                 'title' => $title,
-                'price' => $price
+                'price' => $price,
+                'saq_link' => $saqLink,
+                'saq_code' => $detailedData['saq_code'] ?? 'N/A',
+                'country' => $detailedData['country'] ?? 'N/A',
+                'region' => $detailedData['region'] ?? 'N/A',
+                'degree_alcohol' => $detailedData['degree_alcohol'] ?? 'N/A',
+                'color' => $detailedData['color'] ?? 'N/A',
+                'size' => $detailedData['size'] ?? 'N/A',
             ]);
         });
-
-
+    
         // Handle pagination
         try {
             $nextPage = $crawler->filter('a.action.next')->attr('href');
@@ -70,4 +81,34 @@ class BouteilleController extends Controller
             return null;
         }
     }
+
+    /**
+     * Scrape detailed information for a specific wine bottle from its SAQ page.
+     */
+    private function scrapeBouteilleDetails($url, $client) {
+            $crawler = $client->request('GET', $url);
+
+            // Helper function to extract data by "data-th" attribute
+            $extractData = function ($field) use ($crawler) {
+                $selector = "ul.list-attributs li strong[data-th=\"$field\"]";
+                return $crawler->filter($selector)->count() ? trim($crawler->filter($selector)->text()) : 'N/A';
+            };
+
+            // Extract details using the helper function
+            $saqCode = $extractData('SAQ code');
+            $country = $extractData('Country');
+            $region = $extractData('Region');
+            $degreeAlcohol = $extractData('Degree of alcohol');
+            $color = $extractData('Color');
+            $size = $extractData('Size');
+
+            return [
+                'saq_code' => $saqCode,
+                'country' => $country,
+                'region' => $region,
+                'degree_alcohol' => $degreeAlcohol,
+                'color' => $color,
+                'size' => $size,
+            ];
+        }
 }
