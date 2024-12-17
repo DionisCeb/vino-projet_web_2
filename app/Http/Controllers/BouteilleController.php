@@ -24,7 +24,7 @@ class BouteilleController extends Controller
         set_time_limit(0);
 
         $client = new Client();
-        $nextUrl = "https://www.saq.com/en/products/wine";
+        $nextUrl = "https://www.saq.com/fr/produits/vin";
 
         while ($nextUrl) {
             echo "Dionis' custom scraping hook for URL: $nextUrl\n";
@@ -83,24 +83,39 @@ class BouteilleController extends Controller
     }
 
     /**
+     * Extract data by "data-th" attribute from the crawler.
+     * @param string $field The label to search for (e.g., 'Pays', 'Région').
+     * @return string The extracted text or 'N/A' if not found.
+     */
+
+     private function extractData($crawler, $field) {
+        //selector to find data-th attribute
+        $selector = 'ul.list-attributs li strong[data-th="' . $field . '"]';
+
+        $element = $crawler->filter($selector);
+        
+         // Check if the element exists and return the text
+         if ($element->count() > 0){
+            return trim($element->text());
+         } else {
+            return 'N/A';
+         }
+     }
+
+
+    /**
      * Scrape detailed information for a specific wine bottle from its SAQ page.
      */
     private function scrapeBouteilleDetails($url, $client) {
             $crawler = $client->request('GET', $url);
 
-            // Helper function to extract data by "data-th" attribute
-            $extractData = function ($field) use ($crawler) {
-                $selector = "ul.list-attributs li strong[data-th=\"$field\"]";
-                return $crawler->filter($selector)->count() ? trim($crawler->filter($selector)->text()) : 'N/A';
-            };
-
             // Extract details using the helper function
-            $saqCode = $extractData('SAQ code');
-            $country = $extractData('Country');
-            $region = $extractData('Region');
-            $degreeAlcohol = $extractData('Degree of alcohol');
-            $color = $extractData('Color');
-            $size = $extractData('Size');
+            $saqCode = $this->extractData($crawler, 'Code SAQ');
+            $country = $this->extractData($crawler, 'Pays');
+            $region = $this->extractData($crawler, 'Région');
+            $degreeAlcohol = $this->extractData($crawler, "Degré d'alcool");
+            $color = $this->extractData($crawler, 'Couleur');
+            $size = $this->extractData($crawler, 'Format');
 
             return [
                 'saq_code' => $saqCode,
