@@ -53,6 +53,10 @@ class BouteilleController extends Controller
             // Extract the SAQ link (href attribute)
             $linkNode = $node->filter('a.product-item-photo');
             $saqLink = $linkNode->count() ? $linkNode->attr('href') : 'N/A';
+
+            // Extract the image source URL
+            $imageNode = $node->filter('.product-image-photo');
+            $imageSrc = $imageNode->count() ? $imageNode->attr('src') : 'N/A';
     
             echo "Scraping Details for: $title | $saqLink\n";
     
@@ -64,6 +68,7 @@ class BouteilleController extends Controller
                 'title' => $title,
                 'price' => $price,
                 'saq_link' => $saqLink,
+                'image_src' => $imageSrc,
                 'saq_code' => $detailedData['saq_code'] ?? 'N/A',
                 'country' => $detailedData['country'] ?? 'N/A',
                 'region' => $detailedData['region'] ?? 'N/A',

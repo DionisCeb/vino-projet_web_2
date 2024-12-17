@@ -7,11 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Bouteille extends Model
 {
-    protected $table = 'bouteille';
+    protected $table = 'bottle';
 
     protected $fillable = [
         'title',
         'price',
+        'image_src',
         'saq_link',
         'saq_code',
         'country',
@@ -22,3 +23,6 @@ class Bouteille extends Model
 
     ];
 }
+
+
+
